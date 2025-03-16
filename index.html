@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Contact Form</h1>
+    <div class="flex">
+    <div class="main">
+        <form  class="form" type="submit" method="post" action="thankyou.html">
+            <label class="hey">Enter Your Name</label>
+            <br/>
+            <input class="h" type="text" name="text" placeholder="Enter Your Name" required></input>
+            <br/><br/>
+            <label class="hey">Enter Your Number</label>
+            <br/>
+            <input class="h" type="number" placeholder="Enter Your Number" required></input>
+            <br/><br/>
+            <label class="hey">Enter Your Email</label>
+            <br/>
+            <input class="h" type="email" placeholder="Enter Your Email" required></input>
+            <br/><br/>
+            <label class="hey">Select Your City</label>
+            <br/>
+            <select class="h" name="city">
+                <br/><br/>
+                <option class="a" value="">select your city</option>
+                <option class="a" value="delhi">Delhi</option>
+                <option class="a" value="mumbai">Mumbai</option>
+                <option class="a" value="chennai">Chennai</option>
+            </select> 
+            <br/><br/>  
+            <label class="hey">Write your Message</label><br/>
+            <textarea class="h" type="text" name=" Enter message" placeholder="Write your message" cols="50" rows="15" required></textarea><br/>
+            <button class="button1" type="submit">Send</button>
+        </form>
+
+    </div>
+    </div>
+    <div>
+        <p class="footer">This Form Designed by Hazrat Ali</p>
+    </div>
+</body>
+</html>
